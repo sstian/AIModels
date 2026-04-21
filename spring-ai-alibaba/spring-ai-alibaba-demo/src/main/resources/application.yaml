@@ -1,0 +1,11 @@
+server:
+  port: 18080
+
+spring:
+  application:
+    name: spring-ai-alibaba-demo
+
+  # sping ai alibaba 配置
+  ai:
+    dashscope:
+      api-key: ${DASHSCOPE_API_KEY}
